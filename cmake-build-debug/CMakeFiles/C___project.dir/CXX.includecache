@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/Users/xvhuichuang/Desktop/programme    package/C++ project/Text.cpp
+Text.h
+/Users/xvhuichuang/Desktop/programme    package/C++ project/Text.h
+
+/Users/xvhuichuang/Desktop/programme    package/C++ project/Text.h
+stdio.h
+-
+wchar.h
+-
+
 /Users/xvhuichuang/Desktop/programme    package/C++ project/main.cpp
 iostream
 -
