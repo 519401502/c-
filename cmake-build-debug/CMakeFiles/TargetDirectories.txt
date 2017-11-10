@@ -1,0 +1,3 @@
+/Users/xvhuichuang/Desktop/programme    package/C++ project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xvhuichuang/Desktop/programme    package/C++ project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xvhuichuang/Desktop/programme    package/C++ project/cmake-build-debug/CMakeFiles/C___project.dir
