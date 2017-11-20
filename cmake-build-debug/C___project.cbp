@@ -84,6 +84,9 @@
 		<Unit filename="/Users/xvhuichuang/Desktop/programme    package/C++ project/Text.h">
 			<Option target="C___project"/>
 		</Unit>
+		<Unit filename="/Users/xvhuichuang/Desktop/programme    package/C++ project/XV.h">
+			<Option target="C___project"/>
+		</Unit>
 		<Unit filename="/Users/xvhuichuang/Desktop/programme    package/C++ project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

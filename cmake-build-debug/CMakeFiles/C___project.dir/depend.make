@@ -3,4 +3,5 @@
 
 CMakeFiles/C___project.dir/Text.cpp.o: ../Text.cpp
 CMakeFiles/C___project.dir/Text.cpp.o: ../Text.h
+CMakeFiles/C___project.dir/Text.cpp.o: ../XV.h
 

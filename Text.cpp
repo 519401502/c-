@@ -4,6 +4,8 @@
 
 #include <iostream>
 #include "Text.h"
+#include "XV.h"
+
 using namespace std;
 #define TAG = 50
 #define INDEX = 0
@@ -12,6 +14,14 @@ using namespace std;
 static int staticValue = 0;
 
 extern void learn();
+
+struct textStruct{
+    int i;
+    int age;
+    int name;
+};
+
+
 //方法必须在main方法上面,否则无法调用
 void learn(){
 //    bool类型
@@ -72,13 +82,48 @@ void pointer(){
 
     int arrayInt[10] = {0,1,2,3,4,5,6,7,8,9};
     ip = &arrayInt[9];
-    cout<<*ip << endl;
+    cout<< ip << endl;
+
 }
 
+//time 练习
+void time(){
+    time_t t = time(0);
+    char *tt = ctime(&t);
+    cout<< *tt << endl;
+
+    tm *tm1 = localtime(&t);
+    cout << "当前年份："<< tm1->tm_year <<endl;
+
+    XV xv = XV();
+    xv.go();
+
+    textStruct *textStruct1;
+    textStruct1->name = 1;
+    cout<< textStruct1->name<<endl;
+
+    char names[50] = "你好啊，这是我的测试。";
+    char *namesip = names;
+    cout<< namesip<<endl;
+
+    int text = 999;
+    int *textIp;
+    textIp = &text;
+    cout<< &text <<endl;
+    cout<< textIp << endl;
+    cin>> names;
+    cout<< names <<endl;
+}
+
+void structText(struct textStruct var){
+    var.name;
+}
 
 int main(){
     pointer();
+    time();
 //    learn();
+
     return 1;
 }
 
