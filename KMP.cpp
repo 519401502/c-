@@ -40,6 +40,10 @@ void jisuan(struct zi zichuan, struct na naxt) {
 }
 
 int main() {
+
+}
+
+void kmp(){
     int i, j;
     j = 0;
     i = 0;

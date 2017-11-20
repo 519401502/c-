@@ -123,33 +123,6 @@ C___project/fast:
 	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/build
 .PHONY : C___project/fast
 
-KMP.o: KMP.cpp.o
-
-.PHONY : KMP.o
-
-# target to build an object file
-KMP.cpp.o:
-	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/KMP.cpp.o
-.PHONY : KMP.cpp.o
-
-KMP.i: KMP.cpp.i
-
-.PHONY : KMP.i
-
-# target to preprocess a source file
-KMP.cpp.i:
-	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/KMP.cpp.i
-.PHONY : KMP.cpp.i
-
-KMP.s: KMP.cpp.s
-
-.PHONY : KMP.s
-
-# target to generate assembly for a file
-KMP.cpp.s:
-	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/KMP.cpp.s
-.PHONY : KMP.cpp.s
-
 Text.o: Text.cpp.o
 
 .PHONY : Text.o
@@ -177,60 +150,6 @@ Text.cpp.s:
 	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/Text.cpp.s
 .PHONY : Text.cpp.s
 
-learn.o: learn.cpp.o
-
-.PHONY : learn.o
-
-# target to build an object file
-learn.cpp.o:
-	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/learn.cpp.o
-.PHONY : learn.cpp.o
-
-learn.i: learn.cpp.i
-
-.PHONY : learn.i
-
-# target to preprocess a source file
-learn.cpp.i:
-	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/learn.cpp.i
-.PHONY : learn.cpp.i
-
-learn.s: learn.cpp.s
-
-.PHONY : learn.s
-
-# target to generate assembly for a file
-learn.cpp.s:
-	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/learn.cpp.s
-.PHONY : learn.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,18 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C___project"
-	@echo "... KMP.o"
-	@echo "... KMP.i"
-	@echo "... KMP.s"
 	@echo "... Text.o"
 	@echo "... Text.i"
 	@echo "... Text.s"
-	@echo "... learn.o"
-	@echo "... learn.i"
-	@echo "... learn.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 
