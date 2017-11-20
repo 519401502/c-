@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main() {
+int maidn() {
     cout << "text" << endl;
 
     return 0;

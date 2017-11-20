@@ -123,6 +123,33 @@ C___project/fast:
 	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/build
 .PHONY : C___project/fast
 
+KMP.o: KMP.cpp.o
+
+.PHONY : KMP.o
+
+# target to build an object file
+KMP.cpp.o:
+	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/KMP.cpp.o
+.PHONY : KMP.cpp.o
+
+KMP.i: KMP.cpp.i
+
+.PHONY : KMP.i
+
+# target to preprocess a source file
+KMP.cpp.i:
+	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/KMP.cpp.i
+.PHONY : KMP.cpp.i
+
+KMP.s: KMP.cpp.s
+
+.PHONY : KMP.s
+
+# target to generate assembly for a file
+KMP.cpp.s:
+	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/KMP.cpp.s
+.PHONY : KMP.cpp.s
+
 Text.o: Text.cpp.o
 
 .PHONY : Text.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C___project"
+	@echo "... KMP.o"
+	@echo "... KMP.i"
+	@echo "... KMP.s"
 	@echo "... Text.o"
 	@echo "... Text.i"
 	@echo "... Text.s"

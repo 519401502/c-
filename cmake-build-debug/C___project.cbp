@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/xvhuichuang/Desktop/programme    package/C++ project/KMP.cpp">
+			<Option target="C___project"/>
+		</Unit>
+		<Unit filename="/Users/xvhuichuang/Desktop/programme    package/C++ project/KMP.h">
+			<Option target="C___project"/>
+		</Unit>
 		<Unit filename="/Users/xvhuichuang/Desktop/programme    package/C++ project/Text.cpp">
 			<Option target="C___project"/>
 		</Unit>

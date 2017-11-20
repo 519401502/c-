@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/Users/xvhuichuang/Desktop/programme    package/C++ project/KMP.cpp
+KMP.h
+/Users/xvhuichuang/Desktop/programme    package/C++ project/KMP.h
+stdio.h
+/Users/xvhuichuang/Desktop/programme    package/C++ project/stdio.h
+stdlib.h
+/Users/xvhuichuang/Desktop/programme    package/C++ project/stdlib.h
+string.h
+/Users/xvhuichuang/Desktop/programme    package/C++ project/string.h
+
+/Users/xvhuichuang/Desktop/programme    package/C++ project/KMP.h
+
 /Users/xvhuichuang/Desktop/programme    package/C++ project/Text.cpp
 Text.h
 /Users/xvhuichuang/Desktop/programme    package/C++ project/Text.h
