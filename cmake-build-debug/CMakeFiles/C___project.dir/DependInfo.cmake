@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/xvhuichuang/Desktop/programme    package/C++ project/KMP.cpp" "/Users/xvhuichuang/Desktop/programme    package/C++ project/cmake-build-debug/CMakeFiles/C___project.dir/KMP.cpp.o"
   "/Users/xvhuichuang/Desktop/programme    package/C++ project/Text.cpp" "/Users/xvhuichuang/Desktop/programme    package/C++ project/cmake-build-debug/CMakeFiles/C___project.dir/Text.cpp.o"
+  "/Users/xvhuichuang/Desktop/programme    package/C++ project/learn.cpp" "/Users/xvhuichuang/Desktop/programme    package/C++ project/cmake-build-debug/CMakeFiles/C___project.dir/learn.cpp.o"
   "/Users/xvhuichuang/Desktop/programme    package/C++ project/main.cpp" "/Users/xvhuichuang/Desktop/programme    package/C++ project/cmake-build-debug/CMakeFiles/C___project.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

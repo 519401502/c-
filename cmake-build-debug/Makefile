@@ -177,6 +177,33 @@ Text.cpp.s:
 	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/Text.cpp.s
 .PHONY : Text.cpp.s
 
+learn.o: learn.cpp.o
+
+.PHONY : learn.o
+
+# target to build an object file
+learn.cpp.o:
+	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/learn.cpp.o
+.PHONY : learn.cpp.o
+
+learn.i: learn.cpp.i
+
+.PHONY : learn.i
+
+# target to preprocess a source file
+learn.cpp.i:
+	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/learn.cpp.i
+.PHONY : learn.cpp.i
+
+learn.s: learn.cpp.s
+
+.PHONY : learn.s
+
+# target to generate assembly for a file
+learn.cpp.s:
+	$(MAKE) -f CMakeFiles/C___project.dir/build.make CMakeFiles/C___project.dir/learn.cpp.s
+.PHONY : learn.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... Text.o"
 	@echo "... Text.i"
 	@echo "... Text.s"
+	@echo "... learn.o"
+	@echo "... learn.i"
+	@echo "... learn.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
