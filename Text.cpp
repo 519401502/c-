@@ -146,7 +146,10 @@ int main(){
 //    pointer();
 //    time();
 //    learn();
+
     voidText();
+    printf("%s", "nihao dsfafsa");
+
     return 1;
 }
 
