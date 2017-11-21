@@ -16,9 +16,14 @@ class Text {
 public:
     int text(int i, int j){
         i = i + 1;
+        return 1;
     }
 
 };
+
+namespace xv{
+    int couy = 1;
+}
 
 void text(){
     Text *t = new Text();

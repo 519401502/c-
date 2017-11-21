@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/xvhuichuang/Desktop/programme    package/C++ project/Class Text.h">
+			<Option target="C___project"/>
+		</Unit>
 		<Unit filename="/Users/xvhuichuang/Desktop/programme    package/C++ project/Text.cpp">
 			<Option target="C___project"/>
 		</Unit>

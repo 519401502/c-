@@ -5,8 +5,10 @@
 #include <iostream>
 #include "Text.h"
 #include "XV.h"
+#include "ClassText.h"
 
 using namespace std;
+using namespace xv;
 #define TAG = 50
 #define INDEX = 0
 
@@ -22,12 +24,15 @@ struct textStruct{
 };
 
 
+
+
 //方法必须在main方法上面,否则无法调用
 void learn(){
 //    bool类型
     bool isOk = true;
 //    char 类型
     char c = 'a';
+
 //    int
     int a = 1;
 //    float
@@ -68,7 +73,7 @@ void learn(){
 }
 
 //枚举类
-enum class TT{
+enum class TTT{
     red, gredd
 
 };
@@ -115,15 +120,33 @@ void time(){
     cout<< names <<endl;
 }
 
-void structText(struct textStruct var){
-    var.name;
+
+void voidText(){
+
+    ClassText *text1 = new ClassText();
+    text1->text();
+    text1->posi();
+}
+
+int ClassText::posi() {
+    cout<< "123456"<<endl;
+    ClassText::coutt();
+    return 0;
+}
+
+void ClassText::text() {
+
+}
+
+void ClassText::tex3t() {
+
 }
 
 int main(){
-    pointer();
-    time();
+//    pointer();
+//    time();
 //    learn();
-
+    voidText();
     return 1;
 }
 

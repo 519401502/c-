@@ -3,5 +3,5 @@ project(C___project)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES Text.cpp Text.h XV.h)
+set(SOURCE_FILES Text.cpp Text.h XV.h "Class Text.h")
 add_executable(C___project ${SOURCE_FILES})

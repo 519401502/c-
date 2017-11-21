@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/xvhuichuang/Desktop/programme    package/C++ project/ClassText.h
+iostream
+-
+
 /Users/xvhuichuang/Desktop/programme    package/C++ project/Text.cpp
 iostream
 -
@@ -13,6 +17,8 @@ Text.h
 /Users/xvhuichuang/Desktop/programme    package/C++ project/Text.h
 XV.h
 /Users/xvhuichuang/Desktop/programme    package/C++ project/XV.h
+ClassText.h
+/Users/xvhuichuang/Desktop/programme    package/C++ project/ClassText.h
 
 /Users/xvhuichuang/Desktop/programme    package/C++ project/Text.h
 stdio.h
