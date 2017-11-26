@@ -142,6 +142,23 @@ void ClassText::tex3t() {
 
 }
 
+//冒泡排序 从小到大
+void bubbling() {
+    //数据准备
+    int array[] = {9,4,6,2,8,6,7,10,15,12,11};
+    //算法开始
+    int length = sizeof(array)/ sizeof(int);
+    for (int i = 0; i < length; ++i) {
+        for (int j = i; j < length - 1; ++j) {
+            if (array[j] > array[j + 1]){
+                int temp = array[j];
+                array[j] = array[j+1];
+                array[j+1] = temp;
+            }
+        }
+    }
+}
+
 int main(){
 //    pointer();
 //    time();
@@ -149,7 +166,7 @@ int main(){
 
     voidText();
     printf("%s", "nihao dsfafsa");
-
+    bubbling();
     return 1;
 }
 
